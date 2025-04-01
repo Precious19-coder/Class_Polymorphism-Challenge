@@ -1,0 +1,25 @@
+Smartphone Class:
+Calling +123456789 from Apple iPhone 14...
+Galaxy S23 is taking a photo with its camera!
+Apple iPhone 14 has 85% battery remaining.
+Playing Genshin Impact on Asus ROG Phone 6 with GPU power of 1800 GFLOPS.
+Taking a high-resolution photo with the 50-megapixel camera on Google Pixel 7 Pro.
+Asus ROG Phone 6 has 80% battery remaining.
+Calling +987654321 from Google Pixel 7 Pro...
+
+Polymorphism challenge:
+class Vehicle:
+    def move(self):
+        raise NotImplementedError("Subclasses must implement this method.")
+
+class Car(Vehicle):
+    def move(self):
+        return "Driving 🚗"
+
+class Plane(Vehicle):
+    def move(self):
+        return "Flying ✈️"
+
+class Boat(Vehicle):
+    def move(self):
+        return "Sailing 🚤"
